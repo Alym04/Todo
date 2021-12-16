@@ -1,0 +1,22 @@
+.Item{
+    display: flex;    
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.inp_item{
+    align-self: flex-start;
+}
+.inp_item input{
+    margin-right: 8px;
+    cursor: pointer;
+}
+.inp_item span{
+    color: skyblue;
+    font-size: 20px;
+}
+.btn{
+    align-self: flex-end;
+}
+.btn button{
+    cursor: pointer;
+}
